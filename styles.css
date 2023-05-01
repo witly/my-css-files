@@ -1,0 +1,13 @@
+/* Default styles */
+.groupbubb {
+  min-width: auto;
+  max-width: none;
+}
+
+/* Styles for page widths less than or equal to 768px */
+@media (max-width: 768px) {
+  .groupbubb {
+    min-width: 100%;
+    max-width: 100%;
+  }
+}
